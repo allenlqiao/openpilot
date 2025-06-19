@@ -98,3 +98,4 @@ class TestCarInterfaces:
       LatControlPID(car_params, car_interface)
     elif car_params.lateralTuning.which() == 'torque':
       LatControlTorque(car_params, car_interface)
+# Test edit: added by qiaol for GitHub diff screenshot
